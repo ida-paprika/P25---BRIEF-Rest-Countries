@@ -19,8 +19,8 @@ async function render() {
     countries.forEach(country => {
         rows += `<tr>
                     <th scope="row">${country.name.official}</td>
-                    <td class="text-end">${country.area.toLocaleString('en-US')}</td>
-                    <td class="text-end">${country.population.toLocaleString('en-US')}</td>
+                    <td class="text-end">${new Intl.NumberFormat('en-US').format(country.area)}</td>
+                    <td class="text-end">${new Intl.NumberFormat('en-US').format(country.population)}</td>
                     <td>${country.capital}</td>
                 </tr>`;
     });
