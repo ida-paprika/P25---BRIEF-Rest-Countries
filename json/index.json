@@ -9,14 +9,6 @@
             "common": "Italia"
           }
         }
-      },
-      "capital": [
-        "Rome"
-      ],
-      "flag": "🇮🇹",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/8M1K27TDj7StTRTq8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/365331"
       }
     },
     {
@@ -29,14 +21,6 @@
             "common": "Deutschland"
           }
         }
-      },
-      "capital": [
-        "Berlin"
-      ],
-      "flag": "🇩🇪",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/51477"
       }
     },
     {
@@ -57,14 +41,6 @@
             "common": "Norgga"
           }
         }
-      },
-      "capital": [
-        "Oslo"
-      ],
-      "flag": "🇳🇴",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/htWRrphA7vNgQNdSA",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/2978650"
       }
     },
     {
@@ -81,14 +57,6 @@
             "common": "Česko"
           }
         }
-      },
-      "capital": [
-        "Prague"
-      ],
-      "flag": "🇨🇿",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/47dmgeXMZyhDHyQW8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/51684"
       }
     },
     {
@@ -101,14 +69,6 @@
             "common": "Ελλάδα"
           }
         }
-      },
-      "capital": [
-        "Athens"
-      ],
-      "flag": "🇬🇷",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/LHGcAvuRyD2iKECC6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/192307"
       }
     },
     {
@@ -121,14 +81,6 @@
             "common": "Monaco"
           }
         }
-      },
-      "capital": [
-        "Monaco"
-      ],
-      "flag": "🇲🇨",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/DGpndDot28bYdXYn7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1124039"
       }
     },
     {
@@ -145,14 +97,6 @@
             "common": "Vaticanæ"
           }
         }
-      },
-      "capital": [
-        "Vatican City"
-      ],
-      "flag": "🇻🇦",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/DTKvw5Bd1QZaDZmE8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/36989"
       }
     },
     {
@@ -165,14 +109,6 @@
             "common": "Magyarország"
           }
         }
-      },
-      "capital": [
-        "Budapest"
-      ],
-      "flag": "🇭🇺",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/21335"
       }
     },
     {
@@ -185,14 +121,6 @@
             "common": "Ísland"
           }
         }
-      },
-      "capital": [
-        "Reykjavik"
-      ],
-      "flag": "🇮🇸",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/WxFWSQuc3oamNxoE6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/299133"
       }
     },
     {
@@ -209,14 +137,6 @@
             "common": "Косово"
           }
         }
-      },
-      "capital": [
-        "Pristina"
-      ],
-      "flag": "🇽🇰",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/CSC4Yc8SWPgburuD9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/2088990"
       }
     },
     {
@@ -229,14 +149,6 @@
             "common": "France"
           }
         }
-      },
-      "capital": [
-        "Paris"
-      ],
-      "flag": "🇫🇷",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/g7QxxSFsWyTPKuzd7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1403916"
       }
     },
     {
@@ -253,14 +165,6 @@
             "common": "Kıbrıs"
           }
         }
-      },
-      "capital": [
-        "Nicosia"
-      ],
-      "flag": "🇨🇾",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/77hPBRdLid8yD5Bm7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/307787"
       }
     },
     {
@@ -277,14 +181,6 @@
             "common": "Føroyar"
           }
         }
-      },
-      "capital": [
-        "Tórshavn"
-      ],
-      "flag": "🇫🇴",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/6sTru4SmHdEVcNkM6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/52939"
       }
     },
     {
@@ -305,14 +201,6 @@
             "common": "Боснa и Херцеговина"
           }
         }
-      },
-      "capital": [
-        "Sarajevo"
-      ],
-      "flag": "🇧🇦",
-      "maps": {
-        "googleMaps": "https://www.google.com/maps/place/Bosnia+and+Herzegovina",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/2528142"
       }
     },
     {
@@ -325,14 +213,6 @@
             "common": "Gibraltar"
           }
         }
-      },
-      "capital": [
-        "Gibraltar"
-      ],
-      "flag": "🇬🇮",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/CEoHAs1t6byCBhHFA",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1278736"
       }
     },
     {
@@ -345,14 +225,6 @@
             "common": "United Kingdom"
           }
         }
-      },
-      "capital": [
-        "London"
-      ],
-      "flag": "🇬🇧",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/FoDtc3UKMkFsXAjHA",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/62149"
       }
     },
     {
@@ -373,14 +245,6 @@
             "common": "Jèrri"
           }
         }
-      },
-      "capital": [
-        "Saint Helier"
-      ],
-      "flag": "🇯🇪",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/rXG8GZZtsqK92kTCA",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/367988"
       }
     },
     {
@@ -393,14 +257,6 @@
             "common": "España"
           }
         }
-      },
-      "capital": [
-        "Madrid"
-      ],
-      "flag": "🇪🇸",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/138JaXW8EZzRVitY9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1311341"
       }
     },
     {
@@ -413,14 +269,6 @@
             "common": "Eesti"
           }
         }
-      },
-      "capital": [
-        "Tallinn"
-      ],
-      "flag": "🇪🇪",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/6SsynwGUodL1sDvq8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/79510"
       }
     },
     {
@@ -433,14 +281,6 @@
             "common": "Shqipëria"
           }
         }
-      },
-      "capital": [
-        "Tirana"
-      ],
-      "flag": "🇦🇱",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/BzN9cTuj68ZA8SyZ8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/53292"
       }
     },
     {
@@ -453,14 +293,6 @@
             "common": "Србија"
           }
         }
-      },
-      "capital": [
-        "Belgrade"
-      ],
-      "flag": "🇷🇸",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/2Aqof7aV2Naq8YEK8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1741311"
       }
     },
     {
@@ -473,14 +305,6 @@
             "common": "Portugal"
           }
         }
-      },
-      "capital": [
-        "Lisbon"
-      ],
-      "flag": "🇵🇹",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/BaTBSyc4GWMmbAKB8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/295480"
       }
     },
     {
@@ -493,14 +317,6 @@
             "common": "България"
           }
         }
-      },
-      "capital": [
-        "Sofia"
-      ],
-      "flag": "🇧🇬",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/F5uAhDGWzc3BrHfm9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/186382"
       }
     },
     {
@@ -513,14 +329,6 @@
             "common": "Latvija"
           }
         }
-      },
-      "capital": [
-        "Riga"
-      ],
-      "flag": "🇱🇻",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/iQpUkH7ghq31ZtXe9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/72594"
       }
     },
     {
@@ -533,14 +341,6 @@
             "common": "Svalbard og Jan Mayen"
           }
         }
-      },
-      "capital": [
-        "Longyearbyen"
-      ],
-      "flag": "🇸🇯",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/L2wyyn3cQ16PzQ5J8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1337397"
       }
     },
     {
@@ -553,14 +353,6 @@
             "common": "Åland"
           }
         }
-      },
-      "capital": [
-        "Mariehamn"
-      ],
-      "flag": "🇦🇽",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/ewFb3vYsfUmVCoSb8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1650407"
       }
     },
     {
@@ -573,14 +365,6 @@
             "common": "Polska"
           }
         }
-      },
-      "capital": [
-        "Warsaw"
-      ],
-      "flag": "🇵🇱",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/gY9Xw4Sf4415P4949",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/49715"
       }
     },
     {
@@ -593,14 +377,6 @@
             "common": "Lietuva"
           }
         }
-      },
-      "capital": [
-        "Vilnius"
-      ],
-      "flag": "🇱🇹",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/dd1s9rrLjrK2G8yY6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/72596"
       }
     },
     {
@@ -613,14 +389,6 @@
             "common": "Slovenija"
           }
         }
-      },
-      "capital": [
-        "Ljubljana"
-      ],
-      "flag": "🇸🇮",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/7zgFmswcCJh5L5D49",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/218657"
       }
     },
     {
@@ -633,14 +401,6 @@
             "common": "Україна"
           }
         }
-      },
-      "capital": [
-        "Kyiv"
-      ],
-      "flag": "🇺🇦",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/DvgJMiPJ7aozKFZv7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/60199"
       }
     },
     {
@@ -653,14 +413,6 @@
             "common": "Österreich"
           }
         }
-      },
-      "capital": [
-        "Vienna"
-      ],
-      "flag": "🇦🇹",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/pCWpWQhznHyRzQcu9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/16239"
       }
     },
     {
@@ -673,14 +425,6 @@
             "common": "Црна Гора"
           }
         }
-      },
-      "capital": [
-        "Podgorica"
-      ],
-      "flag": "🇲🇪",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/4THX1fM7WqANuPbB8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/53296"
       }
     },
     {
@@ -697,14 +441,6 @@
             "common": "Malta"
           }
         }
-      },
-      "capital": [
-        "Valletta"
-      ],
-      "flag": "🇲🇹",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/skXCqguxDxxEKVk47",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/365307"
       }
     },
     {
@@ -725,14 +461,6 @@
             "common": "Lëtzebuerg"
           }
         }
-      },
-      "capital": [
-        "Luxembourg"
-      ],
-      "flag": "🇱🇺",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/L6b2AgndgHprt2Ko9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335"
       }
     },
     {
@@ -753,14 +481,6 @@
             "common": "Dgèrnésiais"
           }
         }
-      },
-      "capital": [
-        "St. Peter Port"
-      ],
-      "flag": "🇬🇬",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/6kXnQU5QvEZMD9VB7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/270009"
       }
     },
     {
@@ -773,14 +493,6 @@
             "common": "Slovensko"
           }
         }
-      },
-      "capital": [
-        "Bratislava"
-      ],
-      "flag": "🇸🇰",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/uNSH2wW4bLoZVYJj7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/14296"
       }
     },
     {
@@ -793,14 +505,6 @@
             "common": "Россия"
           }
         }
-      },
-      "capital": [
-        "Moscow"
-      ],
-      "flag": "🇷🇺",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/4F4PpDhGJgVvLby57",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29"
       }
     },
     {
@@ -813,14 +517,6 @@
             "common": "Danmark"
           }
         }
-      },
-      "capital": [
-        "Copenhagen"
-      ],
-      "flag": "🇩🇰",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/UddGPN7hAyrtpFiT6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/50046"
       }
     },
     {
@@ -837,14 +533,6 @@
             "common": "Éire"
           }
         }
-      },
-      "capital": [
-        "Dublin"
-      ],
-      "flag": "🇮🇪",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/hxd1BKxgpchStzQC6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/62273"
       }
     },
     {
@@ -857,14 +545,6 @@
             "common": "Македонија"
           }
         }
-      },
-      "capital": [
-        "Skopje"
-      ],
-      "flag": "🇲🇰",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/55Q8MEnF6ACdu3q79",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/53293"
       }
     },
     {
@@ -877,14 +557,6 @@
             "common": "Moldova"
           }
         }
-      },
-      "capital": [
-        "Chișinău"
-      ],
-      "flag": "🇲🇩",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/JjmyUuULujnDeFPf7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/58974"
       }
     },
     {
@@ -905,14 +577,6 @@
             "common": "België"
           }
         }
-      },
-      "capital": [
-        "Brussels"
-      ],
-      "flag": "🇧🇪",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/UQQzat85TCtPRXAL8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/52411"
       }
     },
     {
@@ -929,14 +593,6 @@
             "common": "Finland"
           }
         }
-      },
-      "capital": [
-        "Helsinki"
-      ],
-      "flag": "🇫🇮",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/HjgWDCNKRAYHrkMn8",
-        "openStreetMaps": "openstreetmap.org/relation/54224"
       }
     },
     {
@@ -949,14 +605,6 @@
             "common": "Nederland"
           }
         }
-      },
-      "capital": [
-        "Amsterdam"
-      ],
-      "flag": "🇳🇱",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/Hv6zQswGhFxoVVBm6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/47796"
       }
     },
     {
@@ -973,14 +621,6 @@
             "common": "Mannin"
           }
         }
-      },
-      "capital": [
-        "Douglas"
-      ],
-      "flag": "🇮🇲",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/4DqVHDgVaFgnh8ZV8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/62269"
       }
     },
     {
@@ -993,14 +633,6 @@
             "common": "Hrvatska"
           }
         }
-      },
-      "capital": [
-        "Zagreb"
-      ],
-      "flag": "🇭🇷",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/qSG6xTKUmrYpwmGQ6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/214885"
       }
     },
     {
@@ -1025,14 +657,6 @@
             "common": "Svizra"
           }
         }
-      },
-      "capital": [
-        "Bern"
-      ],
-      "flag": "🇨🇭",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/uVuZcXaxSx5jLyEC9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/51701"
       }
     },
     {
@@ -1045,14 +669,6 @@
             "common": "Sverige"
           }
         }
-      },
-      "capital": [
-        "Stockholm"
-      ],
-      "flag": "🇸🇪",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/iqygE491ADVgnBW39",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/52822"
       }
     },
     {
@@ -1065,14 +681,6 @@
             "common": "România"
           }
         }
-      },
-      "capital": [
-        "Bucharest"
-      ],
-      "flag": "🇷🇴",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/845hAgCf1mDkN3vr7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/90689"
       }
     },
     {
@@ -1085,14 +693,6 @@
             "common": "Andorra"
           }
         }
-      },
-      "capital": [
-        "Andorra la Vella"
-      ],
-      "flag": "🇦🇩",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/JqAnacWE2qEznKgw7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/9407"
       }
     },
     {
@@ -1109,14 +709,6 @@
             "common": "Беларусь"
           }
         }
-      },
-      "capital": [
-        "Minsk"
-      ],
-      "flag": "🇧🇾",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/PJUDU3EBPSszCQcu6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/59065"
       }
     },
     {
@@ -1129,14 +721,6 @@
             "common": "Liechtenstein"
           }
         }
-      },
-      "capital": [
-        "Vaduz"
-      ],
-      "flag": "🇱🇮",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/KNuHeiJzAPodwM7y6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1155955"
       }
     },
     {
@@ -1149,14 +733,6 @@
             "common": "San Marino"
           }
         }
-      },
-      "capital": [
-        "City of San Marino"
-      ],
-      "flag": "🇸🇲",
-      "maps": {
-        "googleMaps": "https://goo.gl/maps/rxCVJjm8dVY93RPY8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/54624"
       }
     }
   ]
