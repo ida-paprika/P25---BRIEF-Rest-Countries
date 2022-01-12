@@ -26,5 +26,5 @@ async function render() {
                 </tr>`;
     });
 
-    document.querySelector('#table-body').innerHTML = rows;
+    document.querySelector('#countriesTable').innerHTML = rows;
 }
