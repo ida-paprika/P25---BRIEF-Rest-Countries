@@ -14,7 +14,7 @@ async function render() {
     }
     const COUNTRIES = await response.json();    
     let cards = '';
-
+    
     COUNTRIES.forEach(country => {
         cards += `<div class="col"><div class="card h-100">
                     <a href="${country.maps.openStreetMaps}" title="Open Street Maps" target="_blank">
