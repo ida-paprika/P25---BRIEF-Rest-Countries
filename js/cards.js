@@ -22,7 +22,7 @@ async function render() {
                     </a>
                     <div class="card-body">
                       <h5 class="card-title">${country.name.official}</h5>
-                      <p class="card-text">${country.capital}</p>
+                      <p class="card-text">${country.capital[country.capital.length-1]}</p>
                     </div>
                   </div></div>`;
     });

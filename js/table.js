@@ -22,7 +22,7 @@ async function render() {
                     <th scope="row">${country.name.official}</td>
                     <td class="text-end">${FORMATER.format(country.area)}</td>
                     <td class="text-end">${FORMATER.format(country.population)}</td>
-                    <td>${country.capital}</td>
+                    <td>${country.capital[country.capital.length-1]}</td>
                 </tr>`;
     });
 
