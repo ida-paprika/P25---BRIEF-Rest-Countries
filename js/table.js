@@ -13,14 +13,15 @@ async function render() {
         });
     }
     
-    let countries = await response.json();    
+    const COUNTRIES = await response.json();    
     let rows = '';
+    const FORMATER = new Intl.NumberFormat('en-US');
 
-    countries.forEach(country => {
+    COUNTRIES.forEach(country => {
         rows += `<tr>
                     <th scope="row">${country.name.official}</td>
-                    <td class="text-end">${new Intl.NumberFormat('en-US').format(country.area)}</td>
-                    <td class="text-end">${new Intl.NumberFormat('en-US').format(country.population)}</td>
+                    <td class="text-end">${FORMATER.format(country.area)}</td>
+                    <td class="text-end">${FORMATER.format(country.population)}</td>
                     <td>${country.capital}</td>
                 </tr>`;
     });

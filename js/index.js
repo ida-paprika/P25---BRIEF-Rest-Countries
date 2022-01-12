@@ -12,11 +12,11 @@ async function render() {
             }
         });
     }
-    let countries = await response.json();    
+    const COUNTRIES = await response.json();    
     let list = '';
     // countries.sort((a,b) => a.name.official > b.name.official);
 
-    countries.forEach(country => {
+    COUNTRIES.forEach(country => {
         list += `<li>${country.name.official}</li>`;
     });
 
