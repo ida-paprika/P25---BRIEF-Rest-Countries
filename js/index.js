@@ -14,11 +14,11 @@ async function render() {
     }
     const COUNTRIES = await response.json();    
     let list = '';
-    // countries.sort((a,b) => a.name.official > b.name.official);
+    // COUNTRIES.sort((a,b) => a.name.official > b.name.official);
 
     COUNTRIES.forEach(country => {
         list += `<li>${country.name.official}</li>`;
     });
 
-    document.querySelector('#countries-list').innerHTML = list;
+    document.querySelector('#countriesList').innerHTML = list;
 }
