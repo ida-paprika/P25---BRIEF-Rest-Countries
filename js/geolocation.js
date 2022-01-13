@@ -13,7 +13,7 @@ async function render() {
     let option;
     
 // get all countries to create the select options
-// must use dispatchEvent instead of if-else to add 'selected'
+// MUST USE dispatchEvent instead of if-else to add 'selected'
     COUNTRIES.forEach(country => {
         if (country.cca2 == 'FR') {
             options += `<option value="${country.cca2}" selected>${country.name.official}</option>`;
@@ -24,7 +24,7 @@ async function render() {
     select.innerHTML = options;
 
 // reuse of 'response' to fetch paris's geographic coordinates and display the map
-// doesn't feels right to fetch directly without using the countries list .json
+// doesn't feel right to fetch directly without using the countries list .json -> FIND A BETTER WAY ?
     response = await fetch(`https://restcountries.com/v3.1/alpha/fr?fields=capitalInfo`);
     const FRANCE = await response.json();
     map = `<iframe src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCtI7aeTjJOVaB9Zc-r9m3mFHZnGcJoBZ4
