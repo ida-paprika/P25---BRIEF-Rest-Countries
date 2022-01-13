@@ -4,22 +4,10 @@ window.onload = () => {
 }
 
     /*
-    PROCESS :
-        ONLOAD
-          - afficher la France, puis le reste 
-          (fetch all countries, récupération de capitalInfo pour ne plus faire appel à l'API Rest Country)
-          - afficher maps centré sur Paris
-        
-        ONCHANGE
-          - récup from json where name = id/value ?
-            -> ou fetcher initialement "cca2"/"ccn3" pour utiliser comme value/id à comparer ?
-          - option selected ?
-          - RELOAD map : mapDisplay() with lat-lng from selected country
-
     CLBRDLDSMTT :
+        - chargement initial extra-slow
         - écoconception : appels d'API (rest country et/ou googleMaps)
         - async des étapes pour éviter le flood dans la console
-        - France à attraper / sortir du forEach : how ?
         - c'est l'bordel ce code, va falloir refactorer è_é
     */
 
