@@ -24,50 +24,34 @@ window.onload = () => {
     */
 
 async function render() {
-    let response = await fetch('https://restcountries.com/v3.1/region/europe?fields=name,capitalInfo');
-    const COUNTRIES = await response.json();
-    let france;
+    let response = await fetch('https://restcountries.com/v3.1/name/france?fields=name,capitalInfo,cca2');
+    const FRANCE = await response.json();
     let select = document.querySelector('#selectCountry');
-    let options = '';
+    let options = `<option value="${FRANCE[0].cca2}">${FRANCE[0].name.official}</option>`;
+    let option;
 
-    if (!response.ok) {
-        response = await fetch('./json/geolocation.json', {
-            headers: {
-            'Accept': 'application/json'
-            }
-        });
-    }
-
-// get France from json and set the first option with it
-    COUNTRIES.forEach (country => {
-        if (country.name.common == 'France') {
-            france = country;
-        }
-    });
-
-    options = `<option value="${france.name.common}">${france.name.official}</option>`;
-
-    mapDisplay(france.capitalInfo.latlng[0], france.capitalInfo.latlng[1]);
+// reuse of "response" to fetch the full list of countries
+    response = await fetch('https://restcountries.com/v3.1/region/europe?fields=name,cca2');
+    const COUNTRIES = await response.json();
+    mapDisplay(FRANCE[0].capitalInfo.latlng[0], FRANCE[0].capitalInfo.latlng[1]);
     
 // get all countries except from France to create the other options
     COUNTRIES.forEach(country => {
-        if (country.name.common != 'France') {
-            options += `<option value="${country.name.common}">${country.name.official}</option>`;
+        if (country.cca2 != FRANCE[0].cca2) {
+            options += `<option value="${country.cca2}">${country.name.official}</option>`;
         }
     });
 
     document.querySelector('#selectCountry').innerHTML = options;
     
 // change the map according to the selected country
-    select.onchange = () => {
-        console.log(select.value);
-        COUNTRIES.forEach(country => {
-            if (country.name.common == select.value) {
-                mapDisplay(country.capitalInfo.latlng[0], country.capitalInfo.latlng[1]);
-            }
-        });
+    select.onchange = async () => {
+        response = await fetch(`https://restcountries.com/v3.1/alpha/${select.value}?fields=capitalInfo`);
+        option = await response.json();
+        mapDisplay(option.capitalInfo.latlng[0], option.capitalInfo.latlng[1]);
     }
 }
+
 
 // wildly taken from the internet
 function mapDisplay(lat, lng) {
