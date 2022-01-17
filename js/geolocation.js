@@ -10,6 +10,7 @@ async function render() {
     let select = document.querySelector('#selectCountry');
     let options = '';
     let option;
+    let frOption;
     let mapFrame = (lat, lng) => {
         document.querySelector('#mapFrame').innerHTML = 
         `<iframe src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCtI7aeTjJOVaB9Zc-r9m3mFHZnGcJoBZ4
@@ -24,14 +25,10 @@ async function render() {
     });
     select.innerHTML = options;
 
-    let arrayOptions = document.querySelectorAll('option');
-    console.log(arrayOptions);
-    arrayOptions.forEach(opt => {
-        if (opt.value == 'FR') {
-            opt.remove();
-            arrayOptions.insertBefore(opt, arrayOptions.childNodes[0]);
-        } 
-    });
+// move the 'FR' option to the top of the options list
+    frOption = document.querySelector('option[value=FR');
+    frOption.remove();
+    select.add(frOption, select[0]);
 
 // reuse of 'response' to fetch paris's geographic coordinates and display the map
 // doesn't feel right to fetch directly without using the countries list .json -> FIND A BETTER WAY ?
