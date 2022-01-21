@@ -13,7 +13,7 @@ async function render() {
     let mapFrame = (lat, lng) => {
         document.querySelector('#mapFrame').innerHTML = 
         `<iframe src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCtI7aeTjJOVaB9Zc-r9m3mFHZnGcJoBZ4
-        &center=${lat},${lng}&zoom=10" 
+        &center=${lat},${lng}&zoom=10&language=en" 
         allowfullscreen></iframe>`;
     };
     
