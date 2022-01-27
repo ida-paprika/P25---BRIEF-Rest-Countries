@@ -3,7 +3,7 @@ window.onload = () => {
 }
 
 async function render() {
-    let response = await fetch('https://restcountries.com/v3.1/region/europe?fields=name,capital,area,population');
+    let response = await fetch('https://restcountries.com/v3.1/region/europe?fields=name,capital,area,population,capitalInfo');
 
     if (!response.ok) {
         response = await fetch('./json/table.json', {
@@ -22,7 +22,7 @@ async function render() {
                     <th scope="row">${country.name.official}</td>
                     <td class="text-end">${FORMATER.format(country.area)}</td>
                     <td class="text-end">${FORMATER.format(country.population)}</td>
-                    <td>${country.capital[country.capital.length-1]}</td>
+                    <td><a href="geolocation.html?lat=${country.capitalInfo.latlng[0]}&lng=${country.capitalInfo.latlng[1]}">${country.capital[country.capital.length-1]}</a></td>
                 </tr>`;
     });
 
