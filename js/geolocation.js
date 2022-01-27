@@ -27,9 +27,9 @@ async function render() {
     });
     select.innerHTML = options;
 
-// also need to change select value
+// define cca2's value depending on link followed or not
     URLPARAMS.has('cca2') ? cca2 = URLPARAMS.get('cca2') : cca2 = 'FR';
-    
+// display select's default option and map
     select.value = cca2;
     response = await fetch(`https://restcountries.com/v3.1/alpha/${cca2}?fields=capitalInfo`);
     const COUNTRY = await response.json();
