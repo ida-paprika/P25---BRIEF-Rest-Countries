@@ -25,12 +25,13 @@ async function render() {
         options += `<option value="${country.cca2}">${country.name.official}</option>`;
     });
     select.innerHTML = options;
-    select.value = 'FR';
 
 // also need to change select value
-    if(URLPARAMS.has('lat') && URLPARAMS.has('lng')) {
+    if(URLPARAMS.has('cca2') &&URLPARAMS.has('lat') && URLPARAMS.has('lng')) {
+        select.value = URLPARAMS.get('cca2');
         mapFrame(URLPARAMS.get('lat'), URLPARAMS.get('lng'));
     } else {
+        select.value = 'FR';
         response = await fetch(`https://restcountries.com/v3.1/alpha/fr?fields=capitalInfo`);
         const FRANCE = await response.json();
         mapFrame(FRANCE.capitalInfo.latlng[0], FRANCE.capitalInfo.latlng[1]);
