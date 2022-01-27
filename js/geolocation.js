@@ -11,6 +11,7 @@ async function render() {
     let select = document.querySelector('#selectCountry');
     let options = '';
     let option;
+    let cca2;
     const QUERYSTRING = window.location.search;
     const URLPARAMS = new URLSearchParams(QUERYSTRING);
     let mapFrame = (lat, lng) => {
@@ -27,15 +28,12 @@ async function render() {
     select.innerHTML = options;
 
 // also need to change select value
-    if(URLPARAMS.has('cca2') &&URLPARAMS.has('lat') && URLPARAMS.has('lng')) {
-        select.value = URLPARAMS.get('cca2');
-        mapFrame(URLPARAMS.get('lat'), URLPARAMS.get('lng'));
-    } else {
-        select.value = 'FR';
-        response = await fetch(`https://restcountries.com/v3.1/alpha/fr?fields=capitalInfo`);
-        const FRANCE = await response.json();
-        mapFrame(FRANCE.capitalInfo.latlng[0], FRANCE.capitalInfo.latlng[1]);
-    }
+    URLPARAMS.has('cca2') ? cca2 = URLPARAMS.get('cca2') : cca2 = 'FR';
+    
+    select.value = cca2;
+    response = await fetch(`https://restcountries.com/v3.1/alpha/${cca2}?fields=capitalInfo`);
+    const COUNTRY = await response.json();
+    mapFrame(COUNTRY.capitalInfo.latlng[0], COUNTRY.capitalInfo.latlng[1]);
     
 
 // change the map according to the selected country

@@ -4,7 +4,7 @@ window.onload = () => {
 }
 
 async function render() {
-    let response = await fetch('https://restcountries.com/v3.1/region/europe?fields=name,capital,flags,maps,cca2,capitalInfo');
+    let response = await fetch('https://restcountries.com/v3.1/region/europe?fields=name,capital,flags,maps,cca2');
     if (!response.ok) {
         response = await fetch('./json/cards.json', {
             headers: {
@@ -22,7 +22,7 @@ async function render() {
                     </a>
                     <div class="card-body">
                       <h5 class="card-title">${country.name.official}</h5>
-                      <a class="card-text" href="geolocation.html?cca2=${country.cca2}&lat=${country.capitalInfo.latlng[0]}&lng=${country.capitalInfo.latlng[1]}">${country.capital[country.capital.length-1]}</a>
+                      <a class="card-text" href="geolocation.html?cca2=${country.cca2}">${country.capital[country.capital.length-1]}</a>
                     </div>
                   </div></div>`;
     });
